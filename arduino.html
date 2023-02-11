@@ -1,0 +1,67 @@
+<html>
+   <head>
+      <style>
+         /* CSS-Styles */
+         .container {
+         /* Definition des Container-Styles */
+         display: flex;
+         /* Container wird als flex-Element dargestellt */
+         justify-content: center;
+         /* Kinder des Containers werden mittig ausgerichtet */
+         align-items: center;
+         /* Kinder des Containers werden vertikal mittig ausgerichtet */
+         height: 100vh;
+         /* Höhe des Containers wird auf den vollen Bildschirm angepasst */
+         }
+         .button {
+         /* Definition des Button-Styles */
+         padding: 10px 20px;
+         /* Innenabstand des Buttons */
+         font-size: 18px;
+         /* Schriftgröße des Buttons */
+         border-radius: 5px;
+         /* Rundung des Buttons */
+         text-align: center;
+         /* Textausrichtung des Buttons */
+         margin: 0 10px;
+         /* Außenabstand des Buttons */
+         }
+         .button-left {
+         /* Definition des Styles für den linken Button */
+         background-color: red;
+         /* Hintergrundfarbe des Buttons */
+         color: white;
+         /* Schriftfarbe des Buttons */
+         float: left;
+         /* Button wird links ausgerichtet */
+         }
+         .button-center {
+         /* Definition des Styles für den mittleren Button */
+         background-color: gray;
+         /* Hintergrundfarbe des Buttons */
+         color: white;
+         /* Schriftfarbe des Buttons */
+         }
+         .button-right {
+         /* Definition des Styles für den rechten Button */
+         background-color: green;
+         /* Hintergrundfarbe des Buttons */
+         color: white;
+         /* Schriftfarbe des Buttons */
+         float: right;
+         /* Button wird rechts ausgerichtet */
+         }
+      </style>
+   </head>
+   <body>
+      <div class="container">
+         <!-- Container für die Buttons -->
+         <button class='button button-left' type='submit' onmousedown='location.href=\"/RH\"'>ON</button>
+         <!-- Erster Button mit linker Ausrichtung, "ON"-Beschriftung und einer Funktion beim Klick (Weiterleitung zu "/RH") -->
+         <button class='button button-center' type='submit' onmousedown='location.href=\"/RL\"'>OFF</button>
+         <!-- Zweiter Button mit mittiger Ausrichtung, "OFF"-Beschriftung und einer Funktion beim Klick (Weiterleitung zu "/RL") -->
+         <button class='button button-right' type='submit' onmousedown='location.href=\"/GH\"'>ON</button>
+         <!-- Dritter Button mit mittiger Ausrichtung, "ON"-Beschriftung und einer Funktion beim Klick (Weiterleitung zu "/GH") -->
+      </div>
+   </body>
+</html>
