@@ -9,6 +9,6 @@ client.print("button:hover{cursor: pointer; opacity: 0.7;}");
 client.print("</style>");
 client.print("<div class='container'>");
 client.print("<button class='red' type='submit' onmousedown='location.href=\"/RH\"'>LI</button>");
-client.print("<button class='off' type='submit' onmousedown='location.href=\"/RL\"'>OFF</button><br>");
+client.print("<button class='off' type='submit' onmousedown='location.href=\"/RL\"'>OFF</button>");
 client.print("<button class='green' type='submit' onmousedown='location.href=\"/GH\"'>RE</button>");
 client.print("</div>");
